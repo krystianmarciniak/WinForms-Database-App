@@ -25,8 +25,16 @@ namespace Firma {
 
     private void btnUsun_Click(object sender,EventArgs e) {
       if(klienciBindingSource.Current != null) {
-        klienciBindingSource.RemoveCurrent();
-        AktualizujTytul();
+        DialogResult wynik = MessageBox.Show(
+            "Czy na pewno chcesz usunąć klienta?",
+            "Potwierdzenie",
+            MessageBoxButtons.YesNo,
+            MessageBoxIcon.Warning
+        );
+
+        if(wynik == DialogResult.Yes) {
+          klienciBindingSource.RemoveCurrent();
+          }
         }
       }
     private void btnSzukaj_Click(object sender,EventArgs e) {
@@ -46,5 +54,15 @@ namespace Firma {
     private void KlienciBindingSource_ListChanged(object sender,System.ComponentModel.ListChangedEventArgs e) {
       AktualizujTytul();
       }
+    private void txtSzukaj_TextChanged(object sender,EventArgs e) {
+      string tekst = txtSzukaj.Text.Trim();
+
+      if(tekst == "")
+        klienciBindingSource.RemoveFilter();
+      else
+        klienciBindingSource.Filter = $"Nazwisko LIKE '%{tekst}%'";
+      }
+
+
     }
   }

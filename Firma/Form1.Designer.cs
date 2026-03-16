@@ -85,7 +85,7 @@
       this.klienciBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
       this.klienciBindingNavigator.Name = "klienciBindingNavigator";
       this.klienciBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-      this.klienciBindingNavigator.Size = new System.Drawing.Size(800, 27);
+      this.klienciBindingNavigator.Size = new System.Drawing.Size(800, 31);
       this.klienciBindingNavigator.TabIndex = 0;
       this.klienciBindingNavigator.Text = "bindingNavigator1";
       // 
@@ -94,7 +94,7 @@
       this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
       this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
       this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-      this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
+      this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 28);
       this.bindingNavigatorAddNewItem.Text = "Dodaj nowy";
       // 
       // klienciBindingSource
@@ -110,7 +110,7 @@
       // bindingNavigatorCountItem
       // 
       this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-      this.bindingNavigatorCountItem.Size = new System.Drawing.Size(38, 24);
+      this.bindingNavigatorCountItem.Size = new System.Drawing.Size(38, 28);
       this.bindingNavigatorCountItem.Text = "z {0}";
       this.bindingNavigatorCountItem.ToolTipText = "Suma elementów";
       // 
@@ -119,7 +119,7 @@
       this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
       this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
       this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-      this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
+      this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 28);
       this.bindingNavigatorDeleteItem.Text = "Usuń";
       // 
       // bindingNavigatorMoveFirstItem
@@ -127,7 +127,7 @@
       this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
       this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
       this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-      this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(29, 24);
+      this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(29, 28);
       this.bindingNavigatorMoveFirstItem.Text = "Przenieś pierwszy";
       // 
       // bindingNavigatorMovePreviousItem
@@ -135,13 +135,13 @@
       this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
       this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
       this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-      this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(29, 24);
+      this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(29, 28);
       this.bindingNavigatorMovePreviousItem.Text = "Przenieś poprzedni";
       // 
       // bindingNavigatorSeparator
       // 
       this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-      this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 27);
+      this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 31);
       // 
       // bindingNavigatorPositionItem
       // 
@@ -156,14 +156,14 @@
       // bindingNavigatorSeparator1
       // 
       this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-      this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 27);
+      this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 31);
       // 
       // bindingNavigatorMoveNextItem
       // 
       this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
       this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
       this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-      this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(29, 24);
+      this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(29, 28);
       this.bindingNavigatorMoveNextItem.Text = "Przenieś następny";
       // 
       // bindingNavigatorMoveLastItem
@@ -171,19 +171,19 @@
       this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
       this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
       this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-      this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(29, 24);
+      this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(29, 28);
       this.bindingNavigatorMoveLastItem.Text = "Przenieś ostatni";
       // 
       // bindingNavigatorSeparator2
       // 
       this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-      this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 27);
+      this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 31);
       // 
       // klienciBindingNavigatorSaveItem
       // 
       this.klienciBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
       this.klienciBindingNavigatorSaveItem.Name = "klienciBindingNavigatorSaveItem";
-      this.klienciBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 24);
+      this.klienciBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 28);
       this.klienciBindingNavigatorSaveItem.Text = "Zapisz dane";
       // 
       // klienciDataGridView
@@ -199,7 +199,7 @@
             this.dataGridViewTextBoxColumn5});
       this.klienciDataGridView.DataSource = this.klienciBindingSource;
       this.klienciDataGridView.Dock = System.Windows.Forms.DockStyle.Top;
-      this.klienciDataGridView.Location = new System.Drawing.Point(0, 27);
+      this.klienciDataGridView.Location = new System.Drawing.Point(0, 31);
       this.klienciDataGridView.Name = "klienciDataGridView";
       this.klienciDataGridView.RowHeadersWidth = 51;
       this.klienciDataGridView.RowTemplate.Height = 24;
