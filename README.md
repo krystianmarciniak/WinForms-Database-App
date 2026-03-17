@@ -1,4 +1,8 @@
-![Build](https://github.com/krystianmarciniak/WinForms-Database-App/actions/workflows/build.yml/badge.svg)
+# WinForms Database App
+
+![Build Status](https://github.com/krystianmarciniak/WinForms-Database-App/actions/workflows/build.yml/badge.svg)
+
+Simple Windows Forms application with SQL Server database for managing company clients.
 
 # Firma – WinForms CRUD Application
 
