@@ -117,10 +117,10 @@
     <Content Include="Firma.mdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Firma_log.ldf">
+    <!-- <Content Include="Firma_log.ldf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>Firma.mdf</DependentUpon>
-    </Content>
+    </Content> -->
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">
