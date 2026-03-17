@@ -24,4 +24,4 @@ jobs:
         run: nuget restore Firma.sln
 
       - name: Build solution
-        run: msbuild Firma.sln /p:Configuration=Debug
+        run: msbuild Firma.sln /p:Configuration=Release

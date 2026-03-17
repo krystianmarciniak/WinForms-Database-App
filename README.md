@@ -1,4 +1,4 @@
-![Build](https://github.com/TWOJ_LOGIN/firma-winforms-crud/actions/workflows/build.yml/badge.svg)g
+![Build](https://github.com/TWOJ_LOGIN/firma-winforms-crud/actions/workflows/build.yml/badge.svg)
 
 # Firma – WinForms CRUD Application
 
