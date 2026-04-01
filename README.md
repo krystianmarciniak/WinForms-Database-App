@@ -25,6 +25,16 @@ Desktop application written in C# using Windows Forms and SQL Server LocalDB.
 - SQL Server LocalDB
 - Visual Studio
 
+## Database
+
+The application uses a local SQL Server database file (`Firma.mdf`).
+
+For portability, the project is configured to load the database from the application directory using `|DataDirectory|`.
+
+Recommended environment:
+- .NET Framework 4.8
+- SQL Server LocalDB
+
 ## Project structure
 
 - `Form1.cs` – main application logic
