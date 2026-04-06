@@ -8,7 +8,7 @@ Desktop application written in **C# (Windows Forms)** with **SQL Server LocalDB*
 
 ## Demo
 
-![App Demo](./demo.gif)
+![App Demo](./Firma.gif)
 
 ---
 
