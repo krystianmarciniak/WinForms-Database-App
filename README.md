@@ -65,7 +65,7 @@ The application models a simplified company workflow:
 
 ---
 
-## 🛠 Technologies
+## Technologies
 
 - C#
 - .NET Framework 4.8
@@ -76,7 +76,7 @@ The application models a simplified company workflow:
 
 ---
 
-## 🗄 Database
+## Database
 
 Local database file:
 Firma.mdf
