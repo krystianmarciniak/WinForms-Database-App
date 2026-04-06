@@ -69,6 +69,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>FirmaDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="FirmaDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FirmaDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +104,17 @@
     </None>
     <None Include="FirmaDataSet.xss">
       <DependentUpon>FirmaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FirmaDataSet1.xsc">
+      <DependentUpon>FirmaDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="FirmaDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FirmaDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FirmaDataSet1.xss">
+      <DependentUpon>FirmaDataSet1.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
