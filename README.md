@@ -1,8 +1,12 @@
-# Firma – WinForms Business Management App
+# Firma – Business Management System (WinForms)
 
 ![Build Status](https://github.com/krystianmarciniak/WinForms-Database-App/actions/workflows/build.yml/badge.svg)
+![.NET Framework](https://img.shields.io/badge/.NET-Framework%204.8-blue)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
+![Database](https://img.shields.io/badge/database-SQL%20Server%20LocalDB-green)
+![Status](https://img.shields.io/badge/status-Completed-success)
 
-Desktop application written in **C# (Windows Forms)** with **SQL Server LocalDB**, designed to manage core company data and sales processes.
+Desktop application written in **C# (Windows Forms)** for managing company data, employees, contractors, and sales invoices.
 
 ---
 
@@ -12,57 +16,56 @@ Desktop application written in **C# (Windows Forms)** with **SQL Server LocalDB*
 
 ---
 
-## Features
+## Key Features
 
 ### Data Management
 - manage **Clients**
 - manage **Employees**
 - manage **Contractors (Companies)**
-- full CRUD operations (Create, Read, Update, Delete)
+- full CRUD operations
 
 ### Invoice System
-- manage **Sales Invoices**
+- create and manage **Sales Invoices**
 - assign invoices to:
   - contractor
   - employee
-- automatic calculation logic (Net + VAT)
+- track payment status
 
-### Smart Filtering & Search
-- filter **unpaid invoices**
-- show invoices for selected contractor
-- show all invoices
-- global search across multiple tables
+### Filtering & Search
+- show **unpaid invoices**
+- filter invoices by contractor
+- global search across multiple entities
 
-### UI & UX Enhancements
+### UI / UX
 - color-coded invoices:
   - 🟢 paid
   - 🔴 unpaid
-- clear section layout (Clients / Employees / Contractors / Invoices)
-- responsive DataGridView layout
-- intuitive navigation
+- structured layout with clear sections
+- responsive DataGridView
+- intuitive user interaction
 
-### Data Persistence
+### Persistence
 - automatic saving to database
-- data remains after application restart
+- data persists between sessions
 
 ---
 
-## Business Logic
+## System Design
 
-The application models a simplified company system:
+The application models a simplified company workflow:
 
-- **Client** – individual customer  
-- **Contractor** – company (with NIP, address)  
-- **Employee** – responsible for handling invoices  
-- **Invoice** – linked to contractor and employee  
+- **Client** → individual customer  
+- **Contractor** → company (NIP, address)  
+- **Employee** → handles transactions  
+- **Invoice** → linked to contractor and employee  
 
-Relationships:
-- Invoice → Contractor (foreign key)
-- Invoice → Employee (foreign key)
+### Relationships
+- Invoice → Contractor (FK)
+- Invoice → Employee (FK)
 
 ---
 
-## Technologies
+## 🛠 Technologies
 
 - C#
 - .NET Framework 4.8
@@ -73,46 +76,49 @@ Relationships:
 
 ---
 
-## Database
+## 🗄 Database
 
-The application uses a local SQL Server database file:
-
+Local database file:
 Firma.mdf
+|DataDirectory| 
 
-Configured with: |DataDirectory|
-This ensures portability across different machines.
+Ensures portability across machines.
 
 ---
 
 ## Project Structure
 
-- `Form1.cs` – main application logic
-- `FirmaDataSet.xsd` – dataset and table adapters
-- `App.config` – database connection configuration
-- `Firma.mdf` – local database
-
----
-
-## Status
-
-✔ Fully functional CRUD application  
-✔ Persistent LocalDB storage  
-✔ Business logic implemented  
-✔ UI enhanced with visual feedback  
-✔ Ready for academic submission and portfolio  
+- `Form1.cs` – main logic and UI handling
+- `FirmaDataSet.xsd` – dataset and adapters
+- `App.config` – connection string
+- `Firma.mdf` – database
 
 ---
 
 ## Purpose
 
-The project demonstrates:
-- understanding of **desktop application development**
-- working with **relational data models**
-- implementing **business logic in UI applications**
-- building **user-friendly interfaces**
+This project demonstrates:
+
+- desktop application development in WinForms  
+- working with relational data  
+- implementing business logic  
+- building user-friendly interfaces  
 
 ---
 
-## Author
+## Future Improvements
 
-**Krystian Marciniak**
+- user authentication system (login & roles)
+- reporting module (charts, summaries)
+- export to CSV / Excel
+- notifications for unpaid invoices
+- migration to web version (ASP.NET / React)
+- separation of logic (MVC / MVVM pattern)
+
+---
+
+## Installation
+
+1. Clone repository:
+```bash
+git clone https://github.com/krystianmarciniak/WinForms-Database-App.git
